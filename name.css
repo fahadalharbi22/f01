@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+header{
+display: flex;
+justify-content: space-between;
+background-color: rgb(255, 255, 255); 
+overflow: hidden;
+margin-bottom:.5vw;
+padding: 4px;
+filter: drop-shadow(0px 1px 0px  black);
+outline: 8px solid #fff;
+}
+
+header > div.head-left > i > img{
+display: inline-block;
+width: 7vw ;
+}
+
+header > div.head-mid > i{
+font-style: normal;
+  }
+.head-mid > i > a{
+padding:1px 1vw ;
+text-decoration: none;
+font-size: 1.3vw;
+font-family:'Kanit', sans-serif,'cursive';
+color: black;
+text-transform: uppercase;
+
+}
+.head-mid > i > a.names{
+  border-bottom: 3px solid purple; 
+  }
+
+header > div.head-last > i{
+ 
+}
+header > div.head-last > i > a{
+text-decoration: none;
+padding:0px 1vw ;
+font-size: 1.2vw;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+color: black;
+text-transform: uppercase;
+
+}
+
+
+header > div.head-last > i.singup > a {
+  border: 2px solid rgb(11, 4, 48);
+  border-radius: 5px;
+  background-color: rgb(11, 4, 48);
+  color: #ffffff;
+  transition: 100ms;
+   }
+   header i a:hover{
+    transition: 100ms;
+    border-bottom: 3px solid black; 
+    color:purple; 
+  }
+
+/* ---------------------------------------*/
+body{
+ background-color: rgb(22, 22, 22);   
+}
+table,tr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+td{
+color: #fff;
+margin: 20px 0;
+font-family: 'Ubuntu', sans-serif;
+}
+.text{
+   font-size: 3vw;
+   background:linear-gradient(to left,rgb(99, 5, 99),rgb(94, 8, 175),rgb(236, 6, 187)) ;
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent; 
+}
+.text:hover{
+  filter: drop-shadow(0px 0px 4px purple);
+    transition: 700ms;
+}
+/**/
+.carded{
+display: flex;
+justify-content: space-around;
+
+}
+.card {
+  width: 17em;
+  height: 22.5em;
+  background:linear-gradient(to right,rgb(20, 0, 20),black,rgb(22, 1, 22));
+  transition: 1s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border: 1px solid purple;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: 500ms;
+}
+.card span#name{
+font-size: 2em;
+font-family: 'Ubuntu';
+}
+.card span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 0.9em;
+}
+
+.card .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.72em;
+  margin: 1em;
+}
+
+.card .img {
+  width: 4.8em;
+  height: 4.8em;
+  background: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card a {
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.card a:hover {
+  color: red;
+}
+
+.card button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: .4s ease-in-out;
+}
+.card button a{
+  color: rgb(0, 0, 0);
+ text-decoration: none;
+}
+
+.card button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
