@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+body{
+  background-color: rgb(22, 22, 22);   
+ }
+
+header{
+display: flex;
+justify-content: space-between;
+background-color: rgb(255, 255, 255); 
+overflow: hidden;
+margin-bottom:.5vw;
+padding: 4px;
+filter: drop-shadow(0px 1px 0px  black);
+outline: 8px solid #fff;
+}
+
+header > div.head-left > i > img{
+display: inline-block;
+width: 7vw ;
+}
+
+header > div.head-mid > i{
+font-style: normal;
+  }
+.head-mid > i > a{
+padding:1px 1vw ;
+text-decoration: none;
+font-size: 1.3vw;
+font-family:'Kanit', sans-serif,'cursive';
+color: black;
+text-transform: uppercase;
+
+}
+.head-mid > i > a.player{
+  border-bottom: 3px solid purple; 
+  }
+
+header > div.head-last > i{
+ 
+}
+header > div.head-last > i > a{
+text-decoration: none;
+padding:0px 1vw ;
+font-size: 1.2vw;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+color: black;
+text-transform: uppercase;
+
+}
+
+
+header > div.head-last > i.singup > a {
+  border: 2px solid rgb(11, 4, 48);
+  border-radius: 5px;
+  background-color: rgb(11, 4, 48);
+  color: #ffffff;
+  transition: 100ms;
+   }
+   header i a:hover{
+    transition: 100ms;
+    border-bottom: 3px solid black; 
+    color:purple; 
+  }
+caption{
+  font-size: 3vw;
+  font-family:'Kanit', sans-serif,'cursive';
+  color: #fff;
+}
