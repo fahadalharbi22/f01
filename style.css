@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+  body{
+    background-color: rgb(22, 22, 22);   
+   }
+header{
+display: flex;
+justify-content: space-between;
+background-color: rgb(255, 255, 255); 
+overflow: hidden;
+margin-bottom:.5vw;
+padding: 4px;
+outline: 8px solid #fff;
+filter: drop-shadow(0px 1px 0px  black);
+}
+
+header > div.head-left > i > img{
+display: inline-block;
+width: 7vw ;
+}
+
+header > div.head-mid > i{
+font-style: normal;
+  }
+.head-mid > i > a{
+padding:1px 1vw ;
+text-decoration: none;
+font-size: 1.3vw;
+font-family:'Kanit', sans-serif,'cursive';
+color: black;
+text-transform: uppercase;
+
+}
+.head-mid > i > a.home{
+  border-bottom: 3px solid purple; 
+  }
+
+header > div.head-last > i{
+ 
+}
+header > div.head-last > i > a{
+text-decoration: none;
+padding:0px 1vw ;
+font-size: 1.2vw;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+color: black;
+text-transform: uppercase;
+
+}
+
+
+header > div.head-last > i.singup > a {
+border: 2px solid rgb(11, 4, 48);
+border-radius: 5px;
+background-color: rgb(11, 4, 48);
+color: #ffffff;
+transition: 100ms;
+ }
+ header i a:hover{
+  transition: 100ms;
+  border-bottom: 3px solid black; 
+  color:purple; 
+}
+
+ div.section > section{
+position: relative;
+
+overflow: hidden; 
+ }
+
+ div.section > section > div.section-title {
+    position: absolute;
+    top: 2vw;
+    left: 7vw;
+    font-size: 4vw;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family:'Hedvig Letters Sans', sans-serif;
+    text-shadow: 20px 7px 25px purple;
+  }
+  div.section > section > div.ph1 {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 40vw;
+    left: 20vw;
+    width: 59vw;
+    height: 9vw;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(51, 2, 66);
+    border-radius: 20px;
+    opacity: 0.9;
+    filter: drop-shadow(1px 5px 2px black);
+  }
+
+div.ph-1{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+  div.section > section > div.ph1 > div.ph-1 > i#EN > img{
+    width: 7vw;
+    padding: 1vw;
+  }
+  div.section > section > div.ph1 > div.ph-1 > i#ASU > img{
+    width: 7vw;
+    padding: 1vw;
+   }
+   div.section > section > div.ph1 > div.ph-1 > i#rul {
+    font-size: 2vw;
+    font-family: 'Kanit', sans-serif;
+    padding: 3vw 1vw;
+    font-style: normal;
+    color: #ffffff;
+   }
+   div.ph2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
+div.ph2 > i.MSH > img{
+  width: 7vw;
+  padding: 1vw;
+ }
+ div.ph2 > i#rul1 {
+  font-size: 2vw;
+  font-family: 'Kanit', sans-serif;
+  padding: 3vw 1vw;
+  font-style: normal;
+  color: #ffffff;
+ }
+ #rul {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   }
+  div.ph1-s1 > i#mny{
+    position: relative;
+    bottom: 9.5vw;
+    left: 71vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+       }
+       div.section > section >  div.ph1-s2 > i#cart{
+        position: relative;
+        padding: 2px;
+        padding-top: 10px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        bottom: 13vw;
+        left: 81vw;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+           }
+div.section > section > img {
+margin:3vw 5%;
+width: 90%;
+border-radius: 8vw;
+z-index: 0;
+filter: drop-shadow(1px 3px 5px rgb(206, 6, 206))
+ }
+ div.nav-upper{
+  position: relative;
+  display: inline-block;
+ 
+  left: 5vw;
+  width: 42vw;
+  height: 10vw;
+ 
+  border-radius: 20px;
+ }
+ div.nav-upper1{
+  position: relative;
+  display: inline-block;
+
+  left: 7vw;
+  width: 42vw;
+  height: 10vw;
+ 
+  border-radius: 20px;
+
+ }
+ .text{
+font-size: 4vw;
+text-align: center;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+cursor: pointer;
+background: linear-gradient(90deg,#ff00c8,#006cf8);
+-webkit-background-clip: text ;
+-webkit-text-fill-color: transparent;
+ }
+ div.section-2{
+  border: 0px solid white;
+  background-color: #000000;
+  background-size: cover;
+  width: 100%;
+  min-height: 34vw;
+  border: 2px solid purple;
+  outline: 1px solid purple;
+ }
+ div.section-2 > p {
+padding: 20px 50px;
+font-size: 2vw;
+color:#ffffff;
+font-family: 'Hedvig Letters Sans', sans-serif;
+
+   }
+div.section-3 {
+display: inline-block;
+background-color: rgb(85, 0, 65);
+min-height: 35vw;
+overflow: hidden;
+border: 2px solid purple;
+outline: 1px solid purple;
+     }
+     div.section-3 > p {
+ padding: 10px;
+ color: aliceblue;
+ font-variant: small-caps;
+ font-size: 2vw;
+           }
+     div.section-3 > img{
+      display: inline-block;
+      background-color: black;
+      height: 35vw;
+      overflow: hidden;
+      width: 41vw;
+      float: right;
+      border: 0px solid black;
+      border-radius: 30% 0 0 0
+     }
